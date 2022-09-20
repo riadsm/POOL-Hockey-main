@@ -1,0 +1,31 @@
+{
+  "name": "inm5151",
+  "version": "1.0.0",
+  "description": "Projet INM5151",
+  "main": "/app/database",
+  "dependencies": {
+    "better-sqlite3": "^7.1.5",
+    "express": "^4.17.1",
+    "node-gyp": "^8.0.0",
+    "node-schedule": "^2.0.0",
+    "python-shell": "^3.0.0",
+    "request": "^2.88.2",
+    "sqlite3": "^5.0.2",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/database/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulOpris/INM5151.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulOpris/INM5151/issues"
+  },
+  "homepage": "https://github.com/PaulOpris/INM5151#readme"
+}

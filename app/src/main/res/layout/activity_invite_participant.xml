@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/invite_participant_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="@string/invite_participant"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/invite_participant_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/credentials_warning"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/invite_participant_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_text"
+        android:ems="10"
+        android:maxLength="20"
+        android:inputType="textVisiblePassword"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="@string/username"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/invite_participant_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="@string/invite"/>
+</LinearLayout>

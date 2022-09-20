@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.inm5151">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".user.UserInformation"
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.INM5151"
+        tools:targetApi="m">
+        <activity android:name=".activityJava.LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.SignUp">
+            <intent-filter>
+                <action android:name="package.SignUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.HomePage">
+            <intent-filter>
+                <action android:name="package.Homepage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.news.News">
+            <intent-filter>
+                <action android:name="package.News" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.GroupPage">
+            <intent-filter>
+                <action android:name="package.GroupPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.GroupListPage">
+            <intent-filter>
+                <action android:name="package.GroupListPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.Participants">
+            <intent-filter>
+                <action android:name="package.Participants" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.InviteParticipant">
+            <intent-filter>
+                <action android:name="package.InviteParticipant" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.user.Manage">
+            <intent-filter>
+                <action android:name="package.Manage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.user.User">
+            <intent-filter>
+                <action android:name="package.User" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.user.SingleParticipant">
+            <intent-filter>
+                <action android:name="package.SingleParticipant" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.user.UserExchange">
+            <intent-filter>
+                <action android:name="package.UserExchange" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.ExchangeSummary">
+            <intent-filter>
+                <action android:name="package.ExchangeSummary" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.user.UserPlayers">
+            <intent-filter>
+                <action android:name="package.UserPlayers" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.AvailablePlayers">
+            <intent-filter>
+                <action android:name="package.Players" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.singleGroup.Ranking">
+            <intent-filter>
+                <action android:name="package.Ranking" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.Invitations">
+            <intent-filter>
+                <action android:name="package.Invitations" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.settings.Settings">
+            <intent-filter>
+                <action android:name="package.Settings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.settings.GeneralSettings">
+            <intent-filter>
+                <action android:name="package.GeneralSettings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.settings.AccountSettings">
+            <intent-filter>
+                <action android:name="package.AccountSettings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activityJava.groups.CreateGroupPage">
+            <intent-filter>
+                <action android:name="package.CreateGroupPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
